@@ -10,7 +10,9 @@ body {
     background: linear-gradient(120deg, #ad44a9, #24b117);
     color: #fff;
   }
-  
+  #eduction {
+    margin: 0%;
+  }
   .btn-primary {
     border-radius: 60px;
     background-color: #24b117;
@@ -85,8 +87,7 @@ body {
     border: 1px solid #000;
     padding: 8px;
   }
-  #size{
-  }
+
   /* Media Queries */
   /* For example, adjusting styles for smaller screens */
   @media only screen and (max-width: 768px) {
@@ -112,4 +113,18 @@ body {
     #nav.navbar {
       width: 5%;
     }
+  }/*
+  #Calla{
+    width: 10%;
+    height: 10%;
+margin-top: 10%;
+  }
+  #carousel{
+    height: 10%;
+    width: 10%;
+  }*/
+
+  img[id='tash-img']{
+    margin-left: auto;
+    margin-right: auto;
   }
