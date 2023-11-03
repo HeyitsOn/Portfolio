@@ -1,14 +1,25 @@
 /* Default styles */
+*::after,
+*::before{
+  margin: 0;
+padding:0;
+box-sizing: border-box;
+}
 body {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: center;
-    padding-top: 70px;
-    text-align: center;
+    /* height: 100%; */
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: left; */
+    /* align-items: center; */
+    /* padding-top: 70px; */
+    /* text-align: center; */
     background: linear-gradient(120deg, #ad44a9, #24b117);
     color: #fff;
+  }
+  #Home{
+    height: 100vh;
+    padding-top: 10%;
+  
   }
   #eduction {
     margin: 0%;
@@ -36,15 +47,12 @@ body {
     background-color: #8e44ad;
   }
   
-  a:hover {
+  /* a:hover {
     color: #24b117;
     font-size: xx-large;
-  }
+  } */
   
-  p {
-    color: white;
-    font-size: xx-large;
-  }
+ 
   
   .welcome-section h1 {
     font-size: 3.5rem;
@@ -56,21 +64,19 @@ body {
     /* Adjust margin or positioning as necessary */
   }
   
-  #nav {
-    width: 100%;
-  }
   
   #About p {
     font-size: medium;
     text-align: left;
+    color: #000000;
   }
   
-  #nav.navbar {
+ /* .navbar {
     position: fixed;
     top: 0%;
     width: 10%;
     z-index: 100;
-  }
+  } */
   
   #image {
     position: fixed;
@@ -91,13 +97,13 @@ body {
   /* Media Queries */
   /* For example, adjusting styles for smaller screens */
   @media only screen and (max-width: 768px) {
-    body {
+    /* body {
       padding-top: 50px;
-    }
+    } */
   
-    #nav.navbar {
+    /* #nav.navbar {
       width: 20%;
-    }
+    } */
   
     #image {
       right: 10px;
@@ -106,13 +112,13 @@ body {
   
   /* For larger screens */
   @media only screen and (min-width: 1200px) {
-    body {
+    /* body {
       padding-top: 100px;
-    }
+    } */
   
-    #nav.navbar {
+    /* #nav.navbar {
       width: 5%;
-    }
+    } */
   }/*
   #Calla{
     width: 10%;
@@ -123,8 +129,50 @@ margin-top: 10%;
     height: 10%;
     width: 10%;
   }*/
+  .aboutMe{
+    border: 1px solid black;
+    border-radius: 12px;
+    box-shadow: 3px 3px 8px 8px black;
+    padding:20px;
+    /* width: 60vw; */
+  
 
-  img[id='tash-img']{
+   }
+   #About{
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    color:#000000;
+   }
+   #Project{
+    justify-content: center;
+    align-items: center;
+    width: 60vw
+   }
+
+
+  /* img[id='tash-img']{
     margin-left: auto;
     margin-right: auto;
+  } */
+  .row{
+    text-align: center;
   }
+  /* .row{
+    margin-left: auto;
+    margin-right: auto;
+   
+  } */
+
+  #Testimonial img, #data, #caela{
+    padding: 1px;
+    width: 40%;
+    height: 60%;
+  }
+  .card{
+    width: 20rem;
+  }
+  #count{
+    width: 10rem;
+ }
+
