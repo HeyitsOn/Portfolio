@@ -203,3 +203,21 @@ button {
   border-radius: 4px;
   cursor: pointer;
 }
+.card-img-top {
+  max-width: 100%;
+  height: auto;
+font-size: small;}
+
+#count{
+  width: 253px;
+  height: 340px;
+}
+
+.card-text{
+  font-size: 24px;
+}
+
+#count img{
+  width: 250px;
+  height: 200px;
+}
